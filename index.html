@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nextronix Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="img/logo.png" alt="NX">
+        </div>
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="#home"><button class="active" onclick="setActive(this)">Home</button></a>
+                <a href="#teams"><button onclick="setActive(this)">Teams</button></a>
+                <a href="#events"><button onclick="setActive(this)">Events</button></a>
+                <a href="#resources"><button onclick="setActive(this)">Resources</button></a>
+                <div class="highlight"></div>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <a href="#"><button class="labs-button">Labs</button></a>
+    </div>
+
+    <div class="social-handles">
+        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+    <div class="hero-image"></div>
+    <div class="container" id="home">
+        <div class="left-section">
+            <p>You can prove anything you <br>
+             want by coldly logical reason. <br>
+            if you pick the proper postulates</p>
+            <strong>———Isaac Asimov, I, Robot</strong>
+            <h1 class="title" id="typing-text"></h1>
+            <div class="btn-container">
+                <div class="btn">About Us
+                    <a href="#"><button class="cta-button"></button></a>
+                </div>
+                <div class="btn">Connect with us
+                    <a href="#"><button class="cta-button"></button></a>
+                </div>
+            </div>
+        </div>
+        <div class="right-section"></div>
+    </div>
+
+    <div class="teams-section" id="teams">
+        <h2 class="section-title">Our Mentors</h2>
+        <div class="cards-container">
+            <div class="card">
+                <div class="card-image">
+                    <img src="mentor1.jpg" alt="Mentor 1">
+                </div>
+                <div class="card-content">
+                    <div>
+                        <h3>Dr. Nachiket Tapas</h3>
+                        <p>Club Incharge and Technical Advisor</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="mentor2.jpg" alt="Mentor 2">
+                </div>
+                <div class="card-content">
+                    <div>
+                        <h3>Dr. R.G Brajesh</h3>
+                        <p>Technical and Moral Advisor</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">Our Team</h2>
+        <div class="cards-container team-cards">
+            <div class="card">
+                <div class="card-image">
+                    <img src="team1.jpg" alt="Team Member 1">
+                </div>
+                <div class="card-content">
+                    <div>
+                        <h3>Manoj Sinha</h3>
+                        <p>Club President</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="team2.jpg" alt="Team Member 2">
+                </div>
+                <div class="card-content">
+                    <div>
+                        <h3>Hridesh Kumar Prajapati</h3>
+                        <p>Vice President</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="team3.jpg" alt="Team Member 3">
+                </div>
+                <div class="card-content">
+                    <div>
+                        <h3>Kavya Sahu</h3>
+                        <p>Vice President - P.R and Outreach</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="events-section" id="events">
+        <h2 class="section-title">Events</h2>
+        <div class="events-carousel">
+            <div class="events-track">
+                <div class="event-card" data-event="ai-summit">
+                    <div class="card-image">
+                        <img src="event1.jpg" alt="Event 1">
+                    </div>
+                    <div class="card-content">
+                        <div>
+                            <h3>AI Summit 2025</h3>
+                            <p>Date: May 15, 2025 | Location: Virtual<br>Explore the latest in AI technology.</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="#">Register</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card" data-event="robotics-workshop">
+                    <div class="card-image">
+                        <img src="event2.jpg" alt="Event 2">
+                    </div>
+                    <div class="card-content">
+                        <div>
+                            <h3>Robotics Workshop</h3>
+                            <p>Date: June 10, 2025 | Location: New York<br>Hands-on robotics training.</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="#">Register</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card" data-event="cybersecurity-conference">
+                    <div class="card-image">
+                        <img src="event3.jpg" alt="Event 3">
+                    </div>
+                    <div class="card-content">
+                        <div>
+                            <h3>Cybersecurity Conference</h3>
+                            <p>Date: July 20, 2025 | Location: San Francisco<br>Learn about data security.</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="#">Register</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Duplicate cards for infinite scrolling -->
+                <div class="event-card" data-event="ai-summit">
+                    <div class="card-image">
+                        <img src="event1.jpg" alt="Event 1">
+                    </div>
+                    <div class="card-content">
+                        <div>
+                            <h3>AI Summit 2025</h3>
+                            <p>Date: May 15, 2025 | Location: Virtual<br>Explore the latest in AI technology.</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="#">Register</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card" data-event="robotics-workshop">
+                    <div class="card-image">
+                        <img src="event2.jpg" alt="Event 2">
+                    </div>
+                    <div class="card-content">
+                        <div>
+                            <h3>Robotics Workshop</h3>
+                            <p>Date: June 10, 2025 | Location: New York<br>Hands-on robotics training.</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="#">Register</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card" data-event="cybersecurity-conference">
+                    <div class="card-image">
+                        <img src="event3.jpg" alt="Event 3">
+                    </div>
+                    <div class="card-content">
+                        <div>
+                            <h3>Cybersecurity Conference</h3>
+                            <p>Date: July 20, 2025 | Location: San Francisco<br>Learn about data security.</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="#">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="expanded-event" id="expanded-event">
+            <div class="expanded-content">
+                <button class="close-expanded">×</button>
+                <h3 id="expanded-title"></h3>
+                <p id="expanded-details"></p>
+                <div class="social-links">
+                    <a href="#" id="expanded-register">Register</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="resources-section" id="resources">
+        <h2 class="section-title">Robotics Learning Resources</h2>
+        <div class="resource-grid">
+            <div class="resource-card">
+                <h3>Arduino Starter Kit</h3>
+                <p>A beginner-friendly kit with an Arduino Uno, components, and a project book to learn electronics and robotics basics.</p>
+                <a href="https://store.arduino.cc/products/arduino-starter-kit" target="_blank" class="resource-link">Explore</a>
+            </div>
+            <div class="resource-card">
+                <h3>Elegoo Smart Robot Car Kit</h3>
+                <p>An affordable kit with tutorials for building a programmable robot car, ideal for STEM education.</p>
+                <a href="https://www.elegoo.com/products/elegoo-uno-project-smart-robot-car-kit-4" target="_blank" class="resource-link">Explore</a>
+            </div>
+            <div class="resource-card">
+                <h3>Raspberry Pi Robotics Kit</h3>
+                <p>A kit for advanced learners to explore robotics with a Raspberry Pi, sensors, and Python programming.</p>
+                <a href="https://www.raspberrypi.org/products/raspberry-pi-4-model-b/" target="_blank" class="resource-link">Explore</a>
+            </div>
+            <div class="resource-card">
+                <h3>DFRobot Beginner Kit</h3>
+                <p>Includes 15 projects with tutorials, sensors, and actuators for a deep dive into Arduino programming.</p>
+                <a href="https://www.dfrobot.com/product-1452.html" target="_blank" class="resource-link">Explore</a>
+            </div>
+            <div class="resource-card">
+                <h3>3D Printing Tools</h3>
+                <p>Resources and kits for designing and printing custom robot parts using 3D printers.</p>
+                <a href="https://www.matterhackers.com/store" target="_blank" class="resource-link">Explore</a>
+            </div>
+            <div class="resource-card">
+                <h3>Community Forums</h3>
+                <p>Join forums like Arduino Forum and Reddit’s r/robotics for support and project ideas.</p>
+                <a href="https://forum.arduino.cc/" target="_blank" class="resource-link">Explore</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <button class="close-button" onclick="closeMenu()"></button>
+</body>
+</html>
