@@ -144,19 +144,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const eventData = {
       'ai-summit': {
-          title: 'AI Summit 2025',
-          details: 'Date: May 15, 2025 | Location: Virtual<br>Join industry leaders to explore cutting-edge AI innovations, including machine learning advancements and ethical AI practices. This virtual summit offers keynote speeches, workshops, and networking opportunities.',
-          registerLink: 'https://example.com/ai-summit'
+          title: 'Robotics Club Foundation',
+          details: 'Date: MM DD, 2024 | Location: CSVTU<br>',
+          registerLink: '#'
       },
       'robotics-workshop': {
           title: 'Robotics Workshop',
-          details: 'Date: June 10, 2025 | Location: New York<br>A hands-on workshop where participants will build and program their own robots. Ideal for beginners and experts, featuring expert-led sessions and live demonstrations.',
-          registerLink: 'https://example.com/robotics-workshop'
+          details: 'Date: MM DD, 20XX | Location: CSVTU<br>',
+          registerLink: '#'
       },
       'cybersecurity-conference': {
-          title: 'Cybersecurity Conference',
-          details: 'Date: July 20, 2025 | Location: San Francisco<br>Delve into the latest cybersecurity threats and solutions. Includes talks on data encryption, threat detection, and panel discussions with top security experts.',
-          registerLink: 'https://example.com/cybersecurity-conference'
+          title: 'Robo Conference',
+          details: 'Date: MM DD, 20XX | Location: CSVTU<br>',
+          registerLink: '#'
       }
   };
 
